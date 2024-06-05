@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-from werkzeug.urls import url_quote_plus as url_quote
 
 app = Flask(__name__)
 
